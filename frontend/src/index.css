@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  margin-left: 40px ;
+}
+
+#footerLinks div a {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: gray;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: rgb(73, 73, 231);
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #e8e8e8;
+  color: #666;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.social-icon:hover {
+  background-color: #4a90e2;
+  color: white;
+  transform: translateY(-3px);
+}
+
+#supportHero{
+  background-color: rgb(56, 126, 206);
+  color: white;
+}
+#supportHero a {
+  color: white;
+}
+
+
+#supportWrapper{
+  display: flex;
+  justify-content:space-between ;
+  margin: 0;
+}
+
+/* Compact hero input */
+#supportHero .form-control{
+  background: white;
+  color: #222;
+  padding: 10px 14px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.12);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+#supportHero .form-control:focus{
+  outline: none;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.support-links a{
+  text-decoration: underline;
+  font-weight: 500;
+  color: white;
+}
+
+.featured-list li{
+  margin-bottom: 0.5rem;
+}
+
+.featured-list li{
+  margin-bottom: 0.6rem;
+}
