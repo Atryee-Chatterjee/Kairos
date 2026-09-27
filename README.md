@@ -1,9 +1,58 @@
-# Kairos
+# Kairos - A MERN-based trading platform project.
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Atryee-Chatterjee.Kairos) </br>
-A **Full-stack trading platform** built with the **MERN stack**.
-### Tech Stack
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Atryee-Chatterjee.Kairos)
 
-React.js • Node.js • Express.js • MongoDB
+A **full-stack trading platform** built with the **MERN stack**, inspired by modern stock trading platforms. Kairos provides a structured interface for managing orders, holdings, positions, funds, and market watchlists.
 
-🚧 **Work in Progress**
+> **Status:** Completed — Deployment Pending
+
+## Features
+
+- User authentication and session-based access
+- Interactive trading dashboard
+- Market watchlist for tracking stocks
+- Place and manage buy/sell orders
+- Holdings and portfolio overview
+- Positions tracking
+- Funds and account balance management
+- Order history and transaction tracking
+- Responsive frontend interface
+- RESTful backend APIs
+- MongoDB-based data persistence
+- Modular backend architecture with controllers, routes, models, middleware, and schemas
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend user interface |
+| Node.js | Backend runtime |
+| Express.js | REST API and server |
+| MongoDB | Database |
+| Mongoose | MongoDB object modeling |
+| JavaScript | Application logic |
+| HTML5 | Page structure |
+| CSS3 | Styling and layout |
+| Bootstrap | Responsive UI components |
+
+## Project Structure
+
+```text
+Kairos/
+├── backend/
+│   ├── Controllers/
+│   ├── Middlewares/
+│   ├── model/
+│   ├── Routes/
+│   ├── schemas/
+│   └── util/
+│
+├── dashboard/
+│   ├── public/
+│   └── src/
+│
+├── frontend/
+│   ├── public/
+│   └── src/
+│
+└── README.md
